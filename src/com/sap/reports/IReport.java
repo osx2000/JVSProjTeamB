@@ -11,5 +11,7 @@ import java.util.List;
  */
 public interface IReport {
 
-    public int createReport(List<IReportExporter> reportExporter, EnumReport enumReport);
+
+
+    int createReport(List<IReportExporter> exporters, EnumReport enumReport);
 }

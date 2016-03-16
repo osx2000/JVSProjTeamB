@@ -1,5 +1,7 @@
 package com.sap.reports.exporter;
 
+import com.sap.reports.EnumReport;
+
 /**
  * Created by Sumiran Chugh on 3/16/2016.
  *
@@ -7,5 +9,6 @@ package com.sap.reports.exporter;
  */
 public interface IReportExporter {
 
-    public int ExportReport();
+
+    int ExportReport(EnumReport enumReport);
 }

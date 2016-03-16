@@ -28,6 +28,7 @@ public class MainScheduler implements IScript {
     void getReport(EnumReport enumReport,List<IReportExporter> exporter){
         IReport report = ReportFactory.getReport(enumReport);
         report.createReport(exporter,enumReport);
+
     };
 
     @Override

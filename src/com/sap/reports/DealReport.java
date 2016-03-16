@@ -9,6 +9,9 @@ public class DealReport extends FileBasedReport {
 
     @Override
     protected int getData() {
+
+
+
         return 0;
     }
 
